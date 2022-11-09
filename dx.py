@@ -23,8 +23,7 @@ x = np.arange(-2*np.pi, 2*np.pi+0.1, 0.1)
 y = np.sin(x)
 line = g(x,x0,y0,m)
 
-
-#print(x)
+print(x)
 
 fig, ax = plt.subplots(figsize=(6, 6))
 ax.plot(x,y)
